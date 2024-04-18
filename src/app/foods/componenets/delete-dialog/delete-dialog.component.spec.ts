@@ -8,10 +8,9 @@ describe('DeleteDialogComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DeleteDialogComponent]
-    })
-    .compileComponents();
-    
+      imports: [DeleteDialogComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(DeleteDialogComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
